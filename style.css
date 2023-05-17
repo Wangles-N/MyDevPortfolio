@@ -69,6 +69,14 @@ body {
 .navbar a.active {
     color: #f00000;
 }
+
+#menu-icon {
+    font-size: 3.6rem;
+    color: #ededed;
+    cursor: pointer;
+    display: none;
+}
+
 .inicio {
     height: 100vh;
     background: url('fotis-fotopoulos-6sAl6aQ4OWI-unsplash.jpg') no-repeat;
@@ -612,4 +620,31 @@ span {
 .footer-iconTop a i {
     font-size: 2.4rem;
     color: #0f0f0f;
+}
+
+
+/*breakpoints*/
+
+@media (max-width: 1200px) {
+    html {
+        font-size: 55%;
+    }
+}
+
+@media (max-width: 991px) {
+   .header {
+        padding: 2rem 4%;
+   }
+
+   section {
+        padding: 10rem 4% 2rem;
+   }
+
+   .home {
+        padding: 0 4%;
+   }
+
+   .footer {
+        padding: 2rem 4%;
+   }
 }
